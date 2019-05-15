@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: red;
+    padding: 30px;
+    /*text-align: center;*//*
+    font-size: 35px;*/
+    color: white;
+}
+header a {
+	color: white;
+}
+div.acc{
+	float: right;
+}
+div.acc li{
+	display: inline-block;
+	padding: 10px;
+}
+div.nav li {
+	display: inline-block;
+	padding: 10px;
+}
+/*div.srch {
+	float: right;
+}
+
+div.srch li {
+	display: inline-block;
+}*/
+div.login_page {
+    text-align: center;
+    width: 30%;
+    margin: auto auto 20px auto;
+}
+/*label.form-lbl {
+    margin: 20px auto 20px auto;
+    font-size: 40px;
+}
+form label.srch-lbl{
+	font-size: 40px;
+	margin: 20px auto 20px auto;
+
+}*/
+div.tfld input{
+	display: block;
+	height: 50px;
+	width: 400px;
+	margin: auto auto 10px auto;
+}
+form.login li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+
+}
+form li.policy{
+    display: inline-block;
+    font-size: 18px;
+    margin: -5px 30px auto auto;
+}
+form.login ul {
+	margin: -5px 30px auto auto;
+}
+form.login input.loginb {
+	height: 50px;
+	width: 100px;
+	margin: auto auto auto auto;
+}
+
+h3 {
+    margin-top: -1px;
+    color: black;
+    background-color: red;
+    padding-left: 10px;
+}
+a.genre-link {
+    text-decoration: none;
+
+}
+a.logo {
+    text-decoration: none;
+    font-size: 35px;
+}
+p {
+    padding-left: 10px;
+}
+
+
+/*section {
+    width: 90%;
+    height: 200px;
+    margin: 20px 50px 10px auto;
+    border-style: solid;
+    border-width: 2px;
+}*/
+
+/* Style the footer */
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
